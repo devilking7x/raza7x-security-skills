@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "name": "bug-bounty-hunting",
+      "description": "Hunts vulnerabilities on authorized bug bounty programs and writes reports that survive triage. Use when starting a hunt on a HackerOne, Bugcrowd, or private program and you need to check scope, fees, and program status before testing. Use when you have a candidate vulnerability and need to prove it is not a duplicate, build a runnable proof of concept on an authorized target, and score it honestly with CVSS. Use when drafting, submitting, or defending a bounty report, or when one comes back triaged, duplicate, informative, or N/A and you need to decide whether to withdraw or push back.",
+      "path": "skills/bug-bounty-hunting/SKILL.md",
+      "category": "security"
+    },
+    {
+      "name": "secret-management",
+      "description": "Manages the full lifecycle of secrets — API keys, tokens, passwords, private keys, and cloud credentials — from detection and storage to rotation, runtime injection, and leaked-secret incident response. Use when adding or changing any credential, API key, or token in a codebase. Use when setting up a vault or secret manager, wiring secrets into CI/CD or Docker, or reviewing a repository for leaked values. Use when a secret may have been exposed in git history, logs, screenshots, or chat, or when rotating credentials after a staff departure or suspected breach.",
+      "path": "skills/secret-management/SKILL.md",
+      "category": "security"
+    },
+    {
+      "name": "incident-response",
+      "description": "Runs a security or production incident end to end, from declaration to blameless postmortem. Use when a breach, outage, data leak, ransomware alert, or suspicious activity is suspected or confirmed. Use when you need to triage an alert, contain a compromised system, or decide whether to observe an attacker or cut them off. Use when coordinating a response across engineers, support, and leadership, or when writing a postmortem after an incident is over.",
+      "path": "skills/incident-response/SKILL.md",
+      "category": "security"
+    },
+    {
+      "name": "api-security-audit",
+      "description": "Audits and tests a REST, GraphQL, or webhook API for security flaws. Use when testing whether one user can read or change another user's data through an API, when reviewing authentication, tokens, or OAuth flows, or when probing for mass assignment, rate-limit, or business-logic flaws. Use when webhooks need signature and replay verification, or when writing a report with proof-of-concept requests.",
+      "path": "skills/api-security-audit/SKILL.md",
+      "category": "security"
+    },
+    {
+      "name": "supply-chain-security",
+      "description": "Secures the software supply chain from dependency to deployed artifact. Use when adding, updating, or auditing a dependency, when generating or reviewing an SBOM, when verifying build provenance or signatures, or when a dependency turns malicious or a critical CVE drops. Use when setting up Dependabot or Renovate, pinning CI actions, or reviewing a lockfile diff. Use when triaging package-manager audit findings or investigating a typosquatted or dependency-confusion package.",
+      "path": "skills/supply-chain-security/SKILL.md",
+      "category": "security"
+    }
+  ]
+}
